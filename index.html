@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container">
+        <div class="balance-container">
+          <div class="text-container">
+            <p class="title">My balance</p>
+            <p id="balance">$921.48</p>
+          </div>
+          <!-- /.text-container -->
+          <img src="images/logo.svg" alt="logo" class="logo" />
+        </div>
+        <!-- /.balance-container -->
+        <div class="chart-container">
+          <p class="chart-title">Spending - Last 7 days</p>
+          <div class="chart">
+            <div class="item-container">
+              <div class="item">
+                <div class="value-text">$52.36</div>
+                <div class="value-chart"></div>
+              </div>
+              <p>mon</p>
+            </div>
+            <!-- /.item -->
+            <div class="item-container">
+              <div class="item">
+                <div class="value-text">$52.36</div>
+                <div class="value-chart"></div>
+              </div>
+              <p>tue</p>
+            </div>
+            <!-- /.item -->
+            <div class="item-container">
+              <div class="item">
+                <div class="value-text">$52.36</div>
+                <div class="value-chart"></div>
+              </div>
+              <p>wed</p>
+            </div>
+            <!-- /.item -->
+            <div class="item-container">
+              <div class="item">
+                <div class="value-text">$52.36</div>
+                <div class="value-chart"></div>
+              </div>
+              <p>thu</p>
+            </div>
+            <!-- /.item -->
+            <div class="item-container">
+              <div class="item">
+                <div class="value-text">$52.36</div>
+                <div class="value-chart"></div>
+              </div>
+              <p>fri</p>
+            </div>
+            <!-- /.item -->
+            <div class="item-container">
+              <div class="item">
+                <div class="value-text">$52.36</div>
+                <div class="value-chart"></div>
+              </div>
+              <p>sat</p>
+            </div>
+            <!-- /.item -->
+            <div class="item-container">
+              <div class="item">
+                <div class="value-text">$52.36</div>
+                <div class="value-chart"></div>
+              </div>
+              <p>sun</p>
+            </div>
+            <!-- /.item -->
+          </div>
+          <!-- /.chart -->
+          <hr />
+          <div class="total-container">
+            <div class="month">
+              <p id="total-title">Total this month</p>
+              <p id="total-value">$478.33</p>
+            </div>
+            <!-- /.total-month -->
+            <div class="percent">
+              <p id="percent-value">+2.4%</p>
+              <p class="percent-title">from last month</p>
+            </div>
+            <!-- /.percent -->
+          </div>
+          <!-- /.total-container -->
+        </div>
+        <!-- /.chart-container -->
+      </div>
+      <!-- /.card-container -->
+    </div>
+    <!-- /.container -->
+    <script src="/js/app.js" type="module"></script>
+  </body>
+</html>

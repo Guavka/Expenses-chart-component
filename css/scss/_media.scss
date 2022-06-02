@@ -1,0 +1,13 @@
+.container {
+  @media screen and (min-width: 576px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 720px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1140px;    
+  }
+}
